@@ -1,0 +1,209 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #3e3e3f;
+}
+.homepage__menu{
+    background-color: black;
+    height: 60px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    min-width: 1024px;
+}
+.logo{
+    float: left;
+    transition: opacity .1s cubic-bezier(.645,.045,.355,1);
+}
+.title{
+   list-style: none; 
+   text-align: center;
+}
+.title-son{
+    display: inline-block;
+    padding: 20px 24px;
+}
+.title-con{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.title-son:hover{
+    background-color: #49494a;
+}
+.son-title{
+    text-decoration: none;
+    color: aliceblue;
+}
+.banner__img{
+    margin-top: 60px;
+    width: 100%;
+}
+.product__iphone{
+    width: 50px;
+}
+.cart{
+    display: inline-block;
+    float: right;
+    color: #fff;
+}
+.cart>a{
+    text-decoration: none;
+    color: #fff;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.search-icon{
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.cart-icon{
+    color: #fff;
+}
+.icon{
+    padding: 0 8px;
+    color: #fff;
+}
+
+.w>img{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 35px;
+    margin-top: 80px;
+}
+.banner{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner>img{
+    border-radius: 30px;
+}
+
+.navbar{
+    margin: 20px 34px;
+}
+.narbar-title{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 1024px;
+}
+.narbar-title>a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.homepage__product-item{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.product__iphone-item:hover{
+    box-shadow: -4px -4px 5px #4b4a4a, 5px 5px 5px #2b2b2b;
+    border-radius: 24px;
+}
+.phone-cart{
+    display: inline-block;
+    background-color: #323232;
+    border-radius: 24px;
+    width: 377px;
+    height: 365px;
+}
+.product__iphone-item{
+    display: inline-block;
+    margin: 0 7px;
+}
+.product__iphone-item>a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.product__ipnone-item>a .phone-cart>span{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: flex-start;
+}
+.phone-cart>img{
+    display: block;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto 0;
+}
+.phone-cart>h3{
+    margin-top: 10px;
+}
+.btn>button{
+    background-color: #000;
+    color: #fff;
+    height: 40px;
+    width: 70px;
+    margin: 10px 5px;
+    border-radius: 7px;
+}
+.homepage-footer{
+    margin-top: 20px;
+    min-height: 300px;
+    width: 100%;
+    background-color: #000;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    min-width: 1024px;
+}
+.footer-title{
+    color: #fff;
+    display: inline-block;
+}
+.logo-footer{
+    width: 200px;
+}
+.footer-home{
+    margin: 0 34px;
+}
+.footer-title>ul>li{
+    list-style: none;
+    margin: 10px 0;
+}
+.footer-title>h3{
+    margin-bottom: 10px;
+}
+.icon-footer{
+    color: #888;
+}
+.icon-footer>p{
+    display: inline-block;
+    margin-right: 5px;
+}
+.icon-footer>a{
+    color: #fff;
+    margin: 0 3px;
+}
+.icon-footer>a:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+
+/* Điện thoại đứng */
+@media screen and (min-width:240px) {
+
+}
+/* Điện thoại ngang và Máy tính bảng dọc*/
+@media screen and (min-width:768px) {
+   
+}
+/* Laptop  và máy tính bảng ngang*/
+@media screen and (min-width:1024px) {
+   
+}

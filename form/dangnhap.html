@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/form/signin.css">
+    <link rel="stylesheet" href="/font/fontawesome-free-6.2.1-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="image">
+        <form action="/index.html" onsubmit="return singin()">
+            <div class="signin">
+                <div class="dn">
+                    <div class="close">
+                        <a href="/index.html">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                    </div>
+                    <a href="/index.html">
+                        <img width="200px" src="/img/636172fc29c02f7b8ca6b577_After_topzone-removebg-preview.png" alt="">
+                    </a>
+                    <div class="form-signin cach">
+                        <i class="fa-solid fa-user"></i>
+                        <input autofocus autocomplete="off" onkeyup="anloi()" type="text" name="Username" placeholder="Username" class="Username"> <br>
+                        <div class="errName err"></div>
+                    </div> 
+                    <div class="pass cach">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" onkeyup="anloi()" name="Password" placeholder="Password" class="Password"> <br>
+                        <div class="errpass err"></div>
+                    </div>
+                    <input type="submit" value="Đăng Nhập" class="submit">
+                    <div class="row">        
+                        <p>not a member?</p>
+                        <a href="/form/dangky.html">
+                            đăng ký
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        const singin = function () {
+            let name = document.querySelector('.Username');
+            let pass = document.querySelector('.Password');
+            if (name.value==''){
+                document.querySelector('.errName').innerHTML = 'Bạn chưa nhập UserName của mình vui lòng nhập lại!';
+                name.focus();
+                name.style.borderColor = ' red';
+                return false;
+            } else {
+                document.querySelector('.errName').innerHTML = '';
+                name.style.borderColor = 'white';
+            }
+            if (pass.value==''){
+                document.querySelector('.errpass').innerHTML = 'Bạn chưa nhập PassWord vui lòng nhập lại!';
+                pass.focus();
+                pass.style.borderColor = ' red';
+                return false;
+            } else if (pass.value.length < 8) {
+                document.querySelector('.errpass').innerHTML = 'PassWord không được dưới 8 ký tự vui lòng nhập lại!';
+                pass.focus();
+                pass.style.borderColor = ' red';
+                return false
+            } else {
+                document.querySelector('.errpass').innerHTML = '';
+                pass.style.borderColor = 'white';
+            }
+            return true;
+        }
+        function anloi() {
+            document.querySelector('.errName').innerHTML = '';
+            document.querySelector('.errpass').innerHTML = '';
+        }
+    </script>
+</body>
+</html>
