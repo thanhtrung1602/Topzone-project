@@ -1,0 +1,1810 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "role": "0",
+      "name": "admin",
+      "phone": "0822930906",
+      "pass": "123"
+    },
+    {
+      "id": "2",
+      "role": "1",
+      "name": "Trungnt",
+      "phone": "0822930906",
+      "pass": "trungdeptrai"
+    }
+  ],
+
+  "category": [
+    { "id": "1", "name": "iPhone", "img": "/img/img-cateiphone-1.webp" },
+    { "id": "2", "name": "Mac", "img": "/img/img-catemac-1.webp" },
+    { "id": "3", "name": "iPad", "img": "/img/img-cateipad.webp" },
+    { "id": "4", "name": "Watch", "img": "/img/img-catewatch-1.webp" },
+    { "id": "5", "name": "Sound", "img": "/img/img-catesound.webp" }
+  ],
+
+  "bannerCategory": [
+    { "id": "1", "name": "iPhone", "img": "/img/WiPhone-120x35.webp" },
+    { "id": "2", "name": "Mac", "img": "/img/WMac-120x50.webp" },
+    { "id": "3", "name": "iPad", "img": "/img/WiPad-120x51.webp" },
+    { "id": "4", "name": "Watch", "img": "/img/WiPad-120x51.webp" },
+    { "id": "5", "name": "Sound", "img": "/img/WAmThanh-120x33.webpp" }
+  ],
+
+  "typeElectronic": [
+    { "id": "1", "type": "0", "name": "Tất cả" },
+    { "id": "2", "type": "1", "name": "iPhone 14" },
+    { "id": "3", "type": "1", "name": "iPhone 13" },
+    { "id": "4", "type": "1", "name": "iPhone 12" },
+    { "id": "5", "type": "1", "name": "iPhone 11" },
+    { "id": "6", "type": "1", "name": "iPhone SE" },
+    { "id": "7", "type": "2", "name": "Macbook Pro" },
+    { "id": "8", "type": "2", "name": "iMac" },
+    { "id": "9", "type": "2", "name": "Mac mini" },
+    { "id": "10", "type": "3", "name": "iPad Pro M1" },
+    { "id": "11", "type": "3", "name": "iPad Air" },
+    { "id": "12", "type": "3", "name": "iPad mini" },
+    { "id": "13", "type": "4", "name": "Apple Watch Ultra" },
+    { "id": "14", "type": "4", "name": "Apple Watch SE" },
+    { "id": "15", "type": "4", "name": "Apple Watch Series 6" },
+    { "id": "16", "type": "5", "name": "AirPods" },
+    { "id": "17", "type": "5", "name": "Beats" }
+  ],
+
+  "product": [
+    {
+      "id": "1",
+      "idLoai": "1",
+      "img": "/img/iPhone-14-Pro-series- (1)-650x650 (1).webp",
+      "name": "iphone 14 Pro max 128GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "2",
+      "idLoai": "1",
+      "img": "/img/iPhone-14-Pro-series- (1)-650x650 (1).webp",
+      "name": "iphone 14 Pro max 256GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "3",
+      "idLoai": "1",
+      "img": "/img/iPhone-14-Pro-topzone (4)-650x650.webp",
+      "name": "iphone 14 Pro 128GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "4",
+      "idLoai": "1",
+      "img": "/img/iPhone-14-thumb-topzone (2)-650x650.webp",
+      "name": "iphone 14 14GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "5",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone14/iphone-14-128gb-do.webp",
+      "name": "iphone 14",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "6",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone14/iphone-14-plus-512gb-xanh.webp",
+      "name": "iPhone 14 Plus",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "7",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone13/iphone-13-pro-max-512gb-vang.webp",
+      "name": "iPhone 13 Pro Max",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "8",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone13/iphone-13-pro-gold.webp",
+      "name": "iPhone 13 Pro",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "9",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone13/iphone-13-mini-black-128gb.webp",
+      "name": "iPhone 13 Mini",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "10",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone13/iphone-13-red-128gb.webp",
+      "name": "iPhone 13",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "11",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone12/iphone-12-256gb-red.webp",
+      "name": "iPhone 12",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "12",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphone11/iphone-11-128gb-black.webp",
+      "name": "iPhone 11",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "13",
+      "idLoai": "1",
+      "img": "/img/img-iphone/iphoneSE/iphone-se-128gb-2022-white.webp",
+      "name": "iPhone SE",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "14",
+      "idLoai": "1",
+      "img": "/img/iphone-13-min.webp",
+      "name": "iPhone 13 Mini Black",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "15",
+      "idLoai": "2",
+      "img": "/img/macbook-air-m1-2020-silver-thumb-650x650.webp",
+      "name": "MacBook Air M1 2020 7-Core GPU",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "16",
+      "idLoai": "2",
+      "img": "/img/apple-macbook-air-m2-2022-16gb-xanh-650x650.webp",
+      "name": "MacBook Air M2 2022 10-core GPU",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "17",
+      "idLoai": "2",
+      "img": "/img/apple-macbook-pro-14-m1-pro-2021-xam-thumb-650x650.webp",
+      "name": "MacBook Pro 14 inch M1 Pro 2021",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "18",
+      "idLoai": "2",
+      "img": "/img/apple-mac-mini-m1-thumb-650x650.webp",
+      "name": "Mac mini M1 2020",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "19",
+      "idLoai": "2",
+      "img": "/img/img-mac/imac/imac-24-inch-m1-2021-8-core-gpu-bac.webp",
+      "name": "iMac 24 inch M1 2021 8-Core GPU - Bạc",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "20",
+      "idLoai": "2",
+      "img": "/img/img-mac/imac/imac-24inch-green.webp",
+      "name": "iMac 24 inch M2 2022 10-Core GPU - Xanh",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "21",
+      "idLoai": "2",
+      "img": "/img/img-mac/imac/thumb-imac-24inch-pink.webp",
+      "name": "MacBook Pro 14 inch M1 Pro 2021 - Hồng",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "22",
+      "idLoai": "2",
+      "img": "/img/img-mac/mini/apple-mac-mini-m1.webp",
+      "name": "Mac mini M1 2020",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "blacke": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "Purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "23",
+      "idLoai": "2",
+      "img": "/img/img-mac/mini/mac-mini-m1-2020-8gb-512gb.webp",
+      "name": "Mac mini M1 2020 7-Core GPU",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "24",
+      "idLoai": "2",
+      "img": "/img/img-mac/pro/apple-macbook-13pro-m2-2022-16gb-256gb-xám.webp",
+      "name": "MacBook Air M2 2022 10-core GPU",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "25",
+      "idLoai": "2",
+      "img": "/img/img-mac/pro/apple-pro-13-m2-2022-bac-8gb.webp",
+      "name": "MacBook Pro 14 inch M1 Pro 2021",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "26",
+      "idLoai": "2",
+      "img": "/img/img-mac/pro/macbook-pro-16-m1-pro-2021.webp",
+      "name": "Mac mini M1 2020",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "27",
+      "idLoai": "3",
+      "img": "/img/ipad-gen-9-silver-1-2-650x650.webp",
+      "name": "iPad 9 WiFi",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "28",
+      "idLoai": "3",
+      "img": "/img/iPad-gen-10-sliver-thumb-650x650.webp",
+      "name": "iPad 10 WiFi 64GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "29",
+      "idLoai": "3",
+      "img": "/img/iPad-Pro-M2-11-sliver-thumb-1-650x650.webp",
+      "name": "iPad Pro M2 11 inch WiFi 128GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "30",
+      "idLoai": "3",
+      "img": "/img/ipad-air-5-wifi-startlight-650x650.webp",
+      "name": "iPad Air 5 WiFi",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "31",
+      "idLoai": "3",
+      "img": "/img/img-ipad/1.webp",
+      "name": "iPad 9 WiFi",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "32",
+      "idLoai": "3",
+      "img": "/img/img-ipad/2.webp",
+      "name": "iPad 10 WiFi 64GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "33",
+      "idLoai": "3",
+      "img": "/img/img-ipad/3.webp",
+      "name": "iPad Pro M2 11 inch WiFi 128GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "34",
+      "idLoai": "3",
+      "img": "/img/img-ipad/13.webp",
+      "name": "iPad Air 5 WiFi",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "35",
+      "idLoai": "3",
+      "img": "/img/img-ipad/14.webp",
+      "name": "iPad 9 WiFi",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "36",
+      "idLoai": "3",
+      "img": "/img/img-ipad/15.webp",
+      "name": "iPad 10 WiFi 64GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "37",
+      "idLoai": "3",
+      "img": "/img/img-ipad/7.webp",
+      "name": "iPad Pro M2 11 inch WiFi 128GB",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "38",
+      "idLoai": "3",
+      "img": "/img/img-ipad/4.webp",
+      "name": "iPad Air 5 WiFi",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "39",
+      "idLoai": "4",
+      "img": "/img/apple-watch-s8-41mm-den-xanh-thumbtz-650x650.webp",
+      "name": "Apple Watch Series 8 GPS",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "40",
+      "idLoai": "4",
+      "img": "/img/apple-watch-se-2022-44mm-vien-nhom-trang-thumbtz-650x650.webp",
+      "name": "Apple Watch SE 2022 GPS 44mm",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "41",
+      "idLoai": "4",
+      "img": "/img/apple-watch-s8-ultra-size-m-trang-kem-thumbtz-650x650.webp",
+      "name": "Apple Watch Ultra 49mm",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "42",
+      "idLoai": "4",
+      "img": "/img/apple-watch-s3-gps-38mm-den-650x650.webp",
+      "name": "Apple Watch Series 3 GPS",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "43",
+      "idLoai": "4",
+      "img": "/img/img-watch/6/apple-watch-series-6-lte-44mm-blue.webp",
+      "name": "Apple Watch Series 6 LTE 44mm Blue",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "44",
+      "idLoai": "4",
+      "img": "/img/img-watch/SE/apple-watch-se-44mm-vien-nhom-day-cao-su-den.webp",
+      "name": "Apple Watch SE 2022 GPS 44mm",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "45",
+      "idLoai": "4",
+      "img": "/img/img-watch/SE/apple-watch-se-lte-44mm-pink.webp",
+      "name": "Apple Watch SE LTE 44mm Pink",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "46",
+      "idLoai": "4",
+      "img": "/img/img-watch/SE/apple-watch-series-6-lte-xanh-den.webp",
+      "name": "Apple Watch Series 6 LTE Xanh Đen",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "47",
+      "idLoai": "4",
+      "img": "/img/img-watch/Ultra/apple-watch-s8-ultra-cao-su-trang.webp",
+      "name": "Apple Watch Series 8 Ultra Cao Su Trắng",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "48",
+      "idLoai": "4",
+      "img": "/img/img-watch/Ultra/apple-watch-s8-ultra-size-l-cam.webp",
+      "name": "Apple Watch SE 2022 Ultra Size L Cam",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "49",
+      "idLoai": "4",
+      "img": "/img/img-watch/Ultra/apple-watch-s8-ultra-size-m-trang-kem.webp",
+      "name": "Apple Watch Ultra Size M Trắng Kem",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "50",
+      "idLoai": "4",
+      "img": "/img/img-watch/6/apple-watch-nike-series-7-gps-cellular-41mm-650x650.webp",
+      "name": "Apple Watch Nike Series 7 GPS Cellular 41mm",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "51",
+      "idLoai": "5",
+      "img": "/img/airpods-pro-2-thumb-650x650.webp",
+      "name": "AirPods Pro (2nd Gen)",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "52",
+      "idLoai": "5",
+      "img": "/img/airpods-3-hop-sac-khong-day-thumb-650x650.webp",
+      "name": "AirPods 3 Sạc Lightning",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "53",
+      "idLoai": "5",
+      "img": "/img/bluetooth-airpods-pro-magsafe-charge-apple-mlwk3-261121-033421-650x650.webp",
+      "name": "AirPods Pro Hộp sạc Magsafe",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "54",
+      "idLoai": "5",
+      "img": "/img/airpods-3-thumb-650x650.webp",
+      "name": "AirPods 3",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "55",
+      "idLoai": "5",
+      "img": "/img/img-sound/AirPods/airpods-2-hop-sac-thuong.webp",
+      "name": "AirPods 2 Hộp sạc thường",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "56",
+      "idLoai": "5",
+      "img": "/img/img-sound/AirPods/airpods-3-hop-sac-khong-day-ligtning.webp",
+      "name": "AirPods 3 Sạc Lightning",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "57",
+      "idLoai": "5",
+      "img": "/img/img-sound/AirPods/airpods-3.webp",
+      "name": "AirPods 3 Hộp sạc Magsafe",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "58",
+      "idLoai": "5",
+      "img": "/img/img-sound/AirPods/airpods-max-do-hong.webp",
+      "name": "AirPods Max Đỏ Hồng",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "59",
+      "idLoai": "5",
+      "img": "/img/img-sound/AirPods/airpods-pro-2-gen.webp",
+      "name": "AirPods Pro (2nd Gen)",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "60",
+      "idLoai": "5",
+      "img": "/img/img-sound/Beats/beatssoloproden.webp",
+      "name": "Beats Solo Pro Đen",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "61",
+      "idLoai": "5",
+      "img": "/img/img-sound/Beats/high-performax.webp",
+      "name": "High Performax",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    },
+    {
+      "id": "62",
+      "idLoai": "5",
+      "img": "/img/img-sound/Beats/khong-day-powerbeats-pro.webp",
+      "name": "Powerbeats Pro Không Dây",
+      "price": "1đ",
+      "color": {
+        "white": "white",
+        "black": "black",
+        "pink": "pink",
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red",
+        "orange": "orange",
+        "gray": "gray",
+        "purple": "purple",
+        "brown": "brown"
+      }
+    }
+  ],
+
+  "properties": [
+    {
+      "id": "1",
+      "idPro": "1",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "2",
+      "idPro": "2",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "3",
+      "idPro": "3",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "4",
+      "idPro": "4",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "5",
+      "idPro": "5",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "6",
+      "idPro": "6",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "7",
+      "idPro": "7",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "8",
+      "idPro": "8",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "9",
+      "idPro": "9",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "10",
+      "idPro": "10",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "11",
+      "idPro": "11",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "12",
+      "idPro": "12",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "13",
+      "idPro": "13",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "14",
+      "idPro": "14",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB",
+        "xl": "1TB"
+      }
+    },
+    {
+      "id": "15",
+      "idPro": "15",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "16",
+      "idPro": "16",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "17",
+      "idPro": "17",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "18",
+      "idPro": "18",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "19",
+      "idPro": "19",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "20",
+      "idPro": "20",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "21",
+      "idPro": "21",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "22",
+      "idPro": "22",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "23",
+      "idPro": "23",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "24",
+      "idPro": "24",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "25",
+      "idPro": "25",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "26",
+      "idPro": "26",
+      "memorys": {
+        "s": "RAM 8 GB-SSD 256GB",
+        "small": "RAM 8 GB-SSD 512GB",
+        "m": "RAM 16 GB-SSD 256GB",
+        "medium": "RAM 16 GB-SSD 512GB",
+        "l": "RAM 18 GB-SSD 512GB",
+        "lager": "RAM 18 GB-SSD 1TB",
+        "b": "RAM 36 GB-SSD 512GB",
+        "big": "RAM 36 GB-SSD 1TB"
+      }
+    },
+    {
+      "id": "27",
+      "idPro": "27",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "28",
+      "idPro": "28",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "29",
+      "idPro": "29",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "30",
+      "idPro": "30",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "31",
+      "idPro": "31",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "32",
+      "idPro": "32",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "33",
+      "idPro": "33",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "34",
+      "idPro": "34",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "35",
+      "idPro": "35",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "36",
+      "idPro": "36",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "37",
+      "idPro": "37",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "38",
+      "idPro": "38",
+      "memorys": {
+        "small": "128GB",
+        "medium": "256GB",
+        "big": "512GB"
+      }
+    },
+    {
+      "id": "39",
+      "idPro": "39",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "40",
+      "idPro": "40",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "41",
+      "idPro": "41",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "42",
+      "idPro": "42",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "43",
+      "idPro": "43",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "44",
+      "idPro": "44",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "45",
+      "idPro": "45",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "46",
+      "idPro": "46",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "47",
+      "idPro": "47",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "48",
+      "idPro": "48",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "49",
+      "idPro": "49",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    },
+    {
+      "id": "50",
+      "idPro": "50",
+      "memorys": {
+        "small": "40mm",
+        "medium": "41mm",
+        "big": "44mm",
+        "xl": "45mm",
+        "s": "Size S",
+        "m": "Size M",
+        "l": "Size L"
+      }
+    }
+  ]
+}

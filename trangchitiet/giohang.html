@@ -1,178 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/trangchitiet/giohang.css">
-    <link rel="stylesheet" href="/font/themify-icons/themify-icons.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    <title>Giỏ Hàng</title>
-</head>
-<body>
-    <div class="homepage">
-        <header>
-            <div class="homepage__menu">
-                <nav class="menu">
-                    <div class="logo">
-                        <a href="/index.html">
-                            <img width="150" src="/img/logo-topzone-1-removebg-preview.png" alt="">
-                        </a>
-                    </div>
-                    
-                    <div class="title">
-                        <ul class="title-con">
-                            <li class="title-son">
-                                <a class="son-title" href="/Topzone-con/iphone.html">
-                                    iPhone   
-                                </a>
-                            </li>
-                            <li class="title-son">
-                                <a class="son-title" href="/Topzone-con/mac.html">
-                                   Mac 
-                                </a>
-                            </li>
-                            <li class="title-son">
-                                <a class="son-title" href="/Topzone-con/ipad.html">
-                                   iPad 
-                                </a>
-                            </li>
-                            <li class="title-son">
-                                <a class="son-title" href="/Topzone-con/watch.html">
-                                   Watch
-                                </a>
-                            </li>
-                            <li class="title-son">
-                                <a class="son-title" href="/Topzone-con/musical.html">
-                                   Âm Thanh
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="cart">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <a href="/trangchitiet/giohang.html">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </a>
-                            <a href="/form/dangnhap.html">
-                                <i class="fa-solid fa-user cart-icon icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </nav>
-            </div> 
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/trangchitiet/giohang.css" />
+    <link rel="stylesheet" href="/font/themify-icons/themify-icons.css" />
 
-        <main>
-            <div class="main_home">
-                <nav>
-                    <div class="empty">
-                        <div class="img_empty">
-                            <img src="/img/empty_cart" alt="">
-                            <p>Giỏ hàng của bạn chưa có sản phẩm nào!</p>
-                            <span class="contact">Liên hệ: <a href="">0822930906</a>(08h00 - 21h30)</span>
-                        </div>
-                    </div>
-                </nav>
-                <div class="menu-homepage">
-                    <nav class="home">
-                        <div class="img-cart">
-                            <img width="80" src="/img/img-iphone/iphone14/iphone-14-pro-max-1tb-tim.webp" alt="">
-                            <p><i class="fa-solid fa-xmark"></i> Xóa</p>
-                        </div>
-                        <div class="head">
-                            <strong class="nameSP">iPhone 14 pro max 128GB</strong>
-                        </div>
-                        <div class="price">
-                            <p>1đ</p>
-                        </div>
-                        <div class="sale">
-                            <span>4 khuyến mãi <i class="fa-sharp fa-solid fa-caret-down"></i></span>
-                            <p>Màu: Tím <i class="fa-sharp fa-solid fa-caret-down"></i></p>
-                        </div>
-                        <div id="btn" class="btn">
-                            <button >-</button>
-                            <p class="themsl">1</p>
-                            <button class="btn-plus">+</button>
-                        </div>
-                        <div class="home-pice">
-                            <span>Tạm tính:</span>
-                        </div>
-                        <p>1đ</p>
-                    </nav> 
-                </div>
-        
-                 <div class="homepage-info">
-                    <div class="info">
-                        <strong><h2>Thông tin khách hàng</h2></strong>
-                        <div class="info-box">
-                            <input type="radio" name="gioitinh"> Anh
-                            <input type="radio" name="gioitinh"> Chị
-                        </div>
-        
-                        <div class="homepage-ip">
-                            <input style="margin-right: 5px;" type="text" placeholder="Họ và Tên" >
-                            <input type="text" placeholder="Số điện thoại">
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="homepage-address">
-                    <div class="address">
-                        <strong><h2>Chọn hình thức giao hàng</h2></strong>
-        
-                        <div class="add-info-box">
-                            <input style="margin-right: 5px;" type="radio" name="address"> Giao tận nơi
-                            <input type="radio" name="address"> Nhận tại cửa hàng
-                        </div>
-        
-                        <div class="homepage-ip-box">
-                            <div class="homepage-ip-box">
-                                <input type="text" placeholder="Hồ Chí Minh" ><i class="fa-solid fa-chevron-down"></i>
-                            </div>
-                            <div class="homepage-ip-box">
-                                <input type="text" placeholder="Chọn Quận/Huyện"><i class="fa-solid fa-chevron-down"></i>
-                            </div>
-                            <div class="homepage-ip-box">
-                                <input type="text" placeholder="Chọn Phường/Xã"><i class="fa-solid fa-chevron-down"></i>
-                            </div>
-                            <input type="text" placeholder="Số nhà, tên đường">
-        
-                            <input type="text" class="note" placeholder="Nhập ghi chú (nếu có)">
-        
-                            <div class="check people">
-                                <input type="checkbox"> <p>Gọi người khác nhận hàng</p>
-                            </div>
-                            <div class="check number">
-                                <input type="checkbox"> <p>Chuyển danh ba, qua dữ liệu máy mới</p>
-                            </div>
-                            <div class="check cty">
-                                <input type="checkbox"> <p>Xuất hóa đơn công ty</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="buy">
-                    <div class="buy-footer">
-                        <div class="footer-home">
-                            <i class="fa-regular fa-file-invoice"></i>
-                            <a href="">Sử dụng mã giảm giá</a>
-                            <div class="order">
-                                <p>Tổng tiền: </p> 
-                                <span>1đ</span>
-                            </div>
-                            <button>Đặt hàng</button>
-                            <p>Bạn có thể lựa chọn các hình thức thanh toán ở bước sau</p>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="footer">
-                    <p>Bằng cách đặt hàng, bạn đồng ý với Điều khoản sử dụng của TopZone</p>
-                </div>
-            </div>
-        </main>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Giỏ Hàng</title>
+  </head>
+  <body>
+    <div class="homepage">
+      <header></header>
+
+      <main>
+        <div class="main_home"></div>
+      </main>
     </div>
-    <script src="./giohang.js"></script>
-</body>
+    <!-- <script src="./giohang.js"></script> -->
+    <script src="/js/index.js"></script>
+    <script>
+      menu();
+      showCart();
+    </script>
+  </body>
 </html>

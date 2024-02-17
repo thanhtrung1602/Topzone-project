@@ -4,45 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/main.css" />
-    <link rel="stylesheet" href="/assets/media.css" />
+    <title>Topzone</title>
+    <link rel="stylesheet" href="/Topzone-con/reset.css" />
     <link
-      rel="shortcut icon"
-      href="/img/636172fc29c02f7b8ca6b577_After_topzone.jpg"
-      type="image/x-icon"
+      rel="stylesheet"
+      href="/font/fontawesome-free-6.2.1-web/css/all.min.css"
     />
     <link rel="stylesheet" href="/font/themify-icons/themify-icons.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
-
-    <title>Topzone</title>
   </head>
   <body>
     <div class="homepage">
-      <header></header>
-      <div class="banner">
-        <div class="banner__wrapper">
-          <span onclick="turnLeft()" class="banner__arrow banner__arrow--left">
-            <i class="fa-solid fa-arrow-left"></i>
-          </span>
-          <img class="banner__img" src="/img/anh0.webp" alt="" />
-          <span
-            onclick="turnRight()"
-            class="banner__arrow banner__arrow--right"
-          >
-            <i class="fa-solid fa-arrow-right"></i>
-          </span>
+      <header>
+        <div class="homepage__iphone">
+          <i class="w">
+            <img
+              width="152"
+              height="32"
+              src="/img/WiPhone-120x35.webp"
+              alt=""
+            />
+          </i>
         </div>
-      </div>
-      <nav class="homeage__product"></nav>
-      <main>
-        <div class="product-main"></div>
+
+        <nav class="banner">
+          <img src="/img/iP14-pro-2400-600-1920x480.webp" alt="" />
+        </nav>
+      </header>
+
+      <main class="navbar">
+        <div class="narbar-title">
+          <a href="">Tất cả</a>
+          <a href="">iPhone 14</a>
+          <a href="">iPhone 13</a>
+          <a href="">iPhone 12</a>
+          <a href="">iPhone 11</a>
+          <a href="">iPhone SE</a>
+        </div>
+        <div class="narbar-item"></div>
       </main>
 
       <footer>
@@ -59,9 +57,9 @@
               <div class="footer-title">
                 <h3>Tổng đài</h3>
                 <ul>
-                  <li>Mua hàng: <a href="">0822930906</a>(7:30 - 22:00)</li>
-                  <li>CSKH: <a href="">0822930906</a>(8:00 - 21:30)</li>
-                  <li>Kỹ thuật: <a href="">0822930906</a>(7:30 - 22:00)</li>
+                  <li>Mua hàng: <a href="">1900.9696.42</a>(7:30 - 22:00)</li>
+                  <li>CSKH: <a href="">1900.9868.43</a>(8:00 - 21:30)</li>
+                  <li>Kỹ thuật: <a href="">1900.8668.54</a>(7:30 - 22:00)</li>
                 </ul>
               </div>
 
@@ -88,13 +86,10 @@
         </div>
       </footer>
     </div>
-
-    <script src="./main.js"></script>
-    <script src="/js/index.js"></script>
-    <script>
-      menu();
-      category();
-      product();
-    </script>
   </body>
+  <script src="/js/index.js"></script>
+  <script>
+    menu();
+    categories();
+  </script>
 </html>
