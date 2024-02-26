@@ -206,9 +206,9 @@ body{
     margin: 0 5px;
     border-radius: 180px;
 }
-.navbar-btn>button{
+.navbar-btn button{
     background-color: #2192FF;
-    padding: 20px 42%;
+    padding: 20px 33%;
     color: #fff;
     margin-top: 20px;
     border-radius: 12px;
@@ -225,7 +225,6 @@ body{
 
 .btn-chil .btn-icon{
     padding: 20px 11%;
-    float: right;
 }
 .btn-icon > .fa-cart-shopping{
     font-weight: 600;
@@ -234,7 +233,7 @@ body{
 .btn-icon{
 }
 .btn-chil .btn-item{
-    padding: 20px 20%;
+    padding: 20px 16%;
 }
 .homepage-footer{
     min-height: 300px;

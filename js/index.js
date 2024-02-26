@@ -10,7 +10,7 @@ const menu = () => {
         str += `
         
                             <li class="title-son">
-                                <a class="son-title" href="/Topzone-con/category.html?id=${menu.id}">
+                                <a class="son-title" href="../Topzone-con/category.html?id=${menu.id}">
                                     ${menu.name}
                                 </a>
                             </li>
@@ -22,8 +22,8 @@ const menu = () => {
             <div class="homepage__menu">
                 <div class="menu">
                     <div class="logo">
-                        <a href="/index.html">
-                            <img class="logo-image" width="150" src="/img/logo-topzone-1-removebg-preview.png" alt="logo">
+                        <a href="../index.html">
+                            <img class="logo-image" width="150" src="../img/logo-topzone-1-removebg-preview.png" alt="logo">
                         </a>
                     </div>
                     
@@ -35,12 +35,12 @@ const menu = () => {
                         <div class="cart">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <div class="cart-shopping">
-                                <a href="/trangchitiet/giohang.html">
+                                <a href="../trangchitiet/giohang.html">
                                     <i class="fa-solid fa-cart-shopping"></i>
                                     <span class="sl">0</span>
                                 </a>
                             </div>
-                            <a href="/form/dangnhap.html">
+                            <a href="./form/dangnhap.html">
                                 <i class="fa-solid fa-user cart-icon icon"></i>
                             </a>
                         </div>
@@ -61,9 +61,9 @@ const category = () => {
       b.forEach((category) => {
         str += `
                 <div class="homepage__product-cart">
-                    <a href="/Topzone-con/category.html?id=${category.id}" class="iphone-item">
+                    <a href="./Topzone-con/category.html?id=${category.id}" class="iphone-item">
                         <div class="iphone">
-                            <img class="iphone-img" src="${category.img}" alt="">
+                            <img class="iphone-img" src="./${category.img}" alt="">
                         </div>
                             <p>${category.name}</p> 
                     </a>
@@ -107,9 +107,9 @@ const renderProduct = (sp) => {
 
   return `    
                 <div class="product__iphone-item">
-                <a href="/trangchitiet/index.html?id=${id}">
+                <a href="./trangchitiet/index.html?id=${id}">
                     <div class="phone-cart">
-                        <img width="300" height="300" src="${img}" alt=""> 
+                        <img width="300" height="300" src="./${img}" alt=""> 
                         <h3>${name}</h3>
                         <span>${price}</span>
                     </div>
@@ -132,14 +132,14 @@ const detailProducts = async () => {
             <div class="navbar">
             <div class="navbar-plus">
                 <div  class="navbar-img">
-                    <img onclick="doi()" class="a" src="${input.img}" alt="">
+                    <img onclick="doi()" class="a" src="../${input.img}" alt="">
                     <div class="img-detail">
-                        <img onclick="doi0()" width="96" src="/img/img-anhchitiet/ct1.webp" alt="">
-                        <img onclick="doi1()" width="96" src="/img/img-anhchitiet/ct2.webp" alt="">
-                        <img onclick="doi2()" width="96" src="/img/img-anhchitiet/ct3.webp" alt="">
-                        <img onclick="doi3()" width="96" src="/img/img-anhchitiet/ct4.webp" alt="">
-                        <img onclick="doi4()" width="96" src="/img/img-anhchitiet/ct5.webp" alt="">
-                        <img onclick="doi5()" width="96" src="/img/img-anhchitiet/ct6.webp" alt="">
+                        <img onclick="doi0()" width="96" src="../img/img-anhchitiet/ct1.webp" alt="">
+                        <img onclick="doi1()" width="96" src="../img/img-anhchitiet/ct2.webp" alt="">
+                        <img onclick="doi2()" width="96" src="../img/img-anhchitiet/ct3.webp" alt="">
+                        <img onclick="doi3()" width="96" src="../img/img-anhchitiet/ct4.webp" alt="">
+                        <img onclick="doi4()" width="96" src="../img/img-anhchitiet/ct5.webp" alt="">
+                        <img onclick="doi5()" width="96" src="../img/img-anhchitiet/ct6.webp" alt="">
                     </div>
                 </div>
                 
@@ -167,7 +167,7 @@ const detailProducts = async () => {
                     </div>
                     
                     <div class="navbar-btn">
-                        <button>Mua ngay</button>
+                        <a href="../trangchitiet/giohang.html"><button class="btn-icon" onclick="addToCart(${input.id})">Mua ngay</button></a>
                     </div>
                     
                     <div class="btn-chil">
@@ -188,7 +188,6 @@ const detailProducts = async () => {
 // add to cart
 
 const addToCart = async (id, quantity = 1) => {
-  console.log(id);
   const sp = await fetch(`http://localhost:3000/product?id=${id}`)
     .then((response) => response.json())
     .then((cart) => cart[0]);
@@ -242,12 +241,11 @@ const cart_body = (cart) => {
   let str = "";
   cart
     .map((sp, index) => {
-      console.log(index);
       str += `
         <div class="cart-header">
           <div class="cart-left">
             <div class="img-cart">
-              <img src="${sp.img}" alt="">
+              <img src="../${sp.img}" alt="">
               <p onclick="removeCart(${index})"><i class="fa-solid fa-xmark"></i> Xóa</p>
             </div>
             <div class="head">
@@ -292,8 +290,8 @@ const cart_body = (cart) => {
     </div>
       
     <div class="homepage-ip">
-      <input style="margin-right: 5px;" type="text" placeholder="Họ và Tên" >
-      <input type="text" placeholder="Số điện thoại">
+      <input id="nameUser" style="margin-right: 5px;" type="text" placeholder="Họ và Tên" >
+      <input id="phoneUser" type="text" placeholder="Số điện thoại">
     </div>
   </div>
 </div>
@@ -309,17 +307,17 @@ const cart_body = (cart) => {
       
       <div class="homepage-ip-box">
       <div class="homepage-ip-box">
-          <input type="text" placeholder="Hồ Chí Minh" ><i class="fa-solid fa-chevron-down"></i>
+          <input id="city" type="text" placeholder="Hồ Chí Minh" ><i class="fa-solid fa-chevron-down"></i>
       </div>
       <div class="homepage-ip-box">
-          <input type="text" placeholder="Chọn Quận/Huyện"><i class="fa-solid fa-chevron-down"></i>
+          <input id="district" type="text" placeholder="Chọn Quận/Huyện"><i class="fa-solid fa-chevron-down"></i>
       </div>
         <div class="homepage-ip-box">
-          <input type="text" placeholder="Chọn Phường/Xã"><i class="fa-solid fa-chevron-down"></i>
+          <input id="ward" type="text" placeholder="Chọn Phường/Xã"><i class="fa-solid fa-chevron-down"></i>
         </div>
-      <input type="text" placeholder="Số nhà, tên đường">
+      <input id="road" type="text" placeholder="Số nhà, tên đường">
       
-      <input type="text" class="note" placeholder="Nhập ghi chú (nếu có)">
+      <input id="decs" type="text" class="note" placeholder="Nhập ghi chú (nếu có)">
       
       <div class="check people">
           <input type="checkbox"> <p>Gọi người khác nhận hàng</p>
@@ -342,7 +340,7 @@ const cart_body = (cart) => {
       <p>Tổng tiền: </p> 
       <span span>1đ</span>
     </div>
-      <button>Đặt hàng</button>
+      <button onclick="bill()">Đặt hàng</button>
       <p>Bạn có thể lựa chọn các hình thức thanh toán ở bước sau</p>
     </div>
   </div>
@@ -381,8 +379,8 @@ const categoriesHTML = (sp) => {
          <div class="product__iphone-item">
              <a href="/trangchitiet/index.html?id=${id}">
                  <div class="phone-cart">
-                     <img width="300" height="300" src="${img}" alt=""> 
-                     <h3>${name}}</h3>
+                     <img width="300" height="300" src="../${img}" alt=""> 
+                     <h3>${name}</h3>
                      <div class="btn">
                          <button>128GB</button>
                          <button>256GB</button>
@@ -407,3 +405,58 @@ const removeCart = (index) => {
   showCart();
   window.location.reload();
 };
+
+
+const bill = () => {
+  alert("Cảm ơn bạn đặt hàng thành công");
+  let saveOder = new Promise ((saveOder, err) => {
+    let data = {
+      nameUser: document.getElementById("nameUser").value,
+      phone: document.getElementById("phoneUser").value,
+      city: document.getElementById("city").value,
+      district: document.getElementById("district").value,
+      ward: document.getElementById("ward").value,
+      road: document.getElementById("road").value,
+      decs: document.getElementById("decs").value,
+    };
+
+    let opt = {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+
+    fetch(`http://localhost:3000/bill`, opt)
+      .then(res => res.json())
+      .then(oder => saveOder(oder))
+      .catch (err => err(err))
+  });
+
+  saveOder.then(
+    function saveOder(oder) {
+      let id_oder = oder.id;
+      let cart = JSON.parse(localStorage.getItem("cart"));
+      cart.forEach((sp) => {
+        let data = {
+          id_oder: id_oder,
+          id_sp: sp.id,
+          name: sp.name,
+          img: sp.img,
+          price: sp.price,
+        }
+
+        let opt = {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        };
+        fetch(`http://localhost:3000/detailBill`, opt)
+      })
+    },
+    function err (err) { alert("loi luu don hang" + err) }
+  );
+}

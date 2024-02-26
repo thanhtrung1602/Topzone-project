@@ -19,11 +19,13 @@
       <main class="main">
         <div class="taskbar">
           <div class="content">
-            <p><a href=""><button class="content-btn">add Product</button></a></p>
-            <h2>Trang chủ</h2>
+            <p><a href="./addsanpham.html"><button class="content-btn">add Product</button></a></p>
+            <h2> add category </h2>
             <p><a href="./addloai.html"><button class="content-btn">add Category</button></a></p>
           </div>
         </div>
+
+        <div class="on-loai"></div>
       </main>
       <footer></footer>
     </div>
@@ -33,5 +35,26 @@
   <script>
     menu();
     onCategory();
+  </script>
+  <script type="module">
+    import { addCategory } from "./js/module.js"
+      let form = `
+      <div class="edit-pro">
+        <form id="formthemloai">
+          <p class="name-loai"> Tên Loai <input type='text' id='ten_loai'></p>
+          <p class="name-loai"> id Loai <input type='text' id='id_loai'></p>
+          <p><a href="quantriloai.html"><button id="btnthemloai" class="btn-sub" type='button'>Thêm loại</button></a></p>
+        </form>
+      </div>
+        `;
+        document.querySelector(".on-loai").innerHTML = form;
+  //gắn sự kiện click cho nút Thêm
+        document.querySelector("#btnthemloai").onclick = () => {
+            let data = { name: document.getElementById("ten_loai").value,
+                         id: document.getElementById("id_loai").value };
+
+            
+            addCategory(data);
+        };
   </script>
 </html>

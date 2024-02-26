@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/img/636172fc29c02f7b8ca6b577_After_topzone.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assets/admin.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="admin">
+      <header></header>
+      <nav class="navbar"></nav>
+      <main class="main">
+        <div class="taskbar">
+          <div class="content">
+            <p><a href="./addsanpham.html"><button class="content-btn">add Product</button></a></p>
+            <h2>edit category</h2>
+            <p><a href="./addloai.html"><button class="content-btn">add Category</button></a></p>
+          </div>
+        </div>
+
+        <div class="on-loai"></div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+  <script src="../js/index.js"></script>
+  <script src="./js/admin.js"></script>
+  <script>
+    menu();
+    onCategory();
+  </script>
+  <script type="module">
+    import { editloai, laylloai } from "./js/module.js";
+    const params = new URLSearchParams(location.search);
+    let id = Number(params.get("id"));
+    let loai = await laylloai(id);
+    let form = `
+        <div class="edit-pro">
+          <form id="formsualoai">
+          <p> Tên Loai <input type='text' value='${loai.name}' id='ten_loai'></p>
+          <p><a href="./quantriloai.html"><button id="btn" class="btn-sub" type='button'>Sửa loại</button></a></p>
+          </form>;
+        </div>`
+    document.querySelector(".on-loai").innerHTML = form;
+    //gắn sự kiện click cho nút Sửa
+    document.querySelector("#btn").onclick = () => {
+      let data = {
+        id: id,
+        name: document.getElementById("ten_loai").value,
+      };
+      editloai(id, data);
+    };
+  </script>
+</html>

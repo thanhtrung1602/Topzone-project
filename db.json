@@ -15,62 +15,215 @@
       "pass": "trungdeptrai"
     }
   ],
-
+  "bill": [
+    {
+      "id": "1b0e",
+      "nameUser": "Nguyễn Thành Trung",
+      "phone": "0822930906",
+      "city": "Hà Nội",
+      "district": "quan hoan kiem",
+      "ward": "phuong 12",
+      "road": "11/22/test",
+      "decs": "tetst"
+    },
+    {
+      "id": "b89e",
+      "nameUser": "Nguyen Thanh Trung",
+      "phone": "+84822930906",
+      "city": "Thành phố Hồ Chí Minh",
+      "district": "Quận Gò Vấp",
+      "ward": "Phường 3",
+      "road": "Nguyễn Kiệm",
+      "decs": "khi nào gần tới thì gọi"
+    },
+    {
+      "id": "88dc",
+      "nameUser": "Nguyễn Thành Trung",
+      "phone": "+84822930906",
+      "city": "Thành phố Hồ Chí Minh",
+      "district": "Quận Gò Vấp",
+      "ward": "Phường 3",
+      "road": "Nguyễn Kiệm",
+      "decs": "khi nào gần tới thì gọi"
+    },
+    {
+      "id": "0761",
+      "nameUser": "test",
+      "phone": "+84822930906",
+      "city": "Thành phố Hồ Chí Minh",
+      "district": "Quận Gò Vấp",
+      "ward": "Phường 3",
+      "road": "Nguyễn Kiệm",
+      "decs": "khi nào gần tới thì gọi"
+    }
+  ],
+  "detailBill": [
+    {
+      "id": "6482",
+      "id_oder": "0761",
+      "id_sp": "15",
+      "name": "MacBook Air M1 2020 7-Core GPU",
+      "img": "/img/macbook-air-m1-2020-silver-thumb-650x650.webp",
+      "price": "1đ"
+    },
+    {
+      "id": "3c74",
+      "id_oder": "0761",
+      "id_sp": "40",
+      "name": "Apple Watch SE 2022 GPS 44mm",
+      "img": "/img/apple-watch-se-2022-44mm-vien-nhom-trang-thumbtz-650x650.webp",
+      "price": "1đ"
+    }
+  ],
   "category": [
-    { "id": "1", "name": "iPhone", "img": "/img/img-cateiphone-1.webp" },
-    { "id": "2", "name": "Mac", "img": "/img/img-catemac-1.webp" },
-    { "id": "3", "name": "iPad", "img": "/img/img-cateipad.webp" },
-    { "id": "4", "name": "Watch", "img": "/img/img-catewatch-1.webp" },
-    { "id": "5", "name": "Sound", "img": "/img/img-catesound.webp" }
+    {
+      "id": "1",
+      "name": "iPhoneee"
+    },
+    {
+      "id": "2",
+      "name": "Mac",
+      "img": "/img/img-catemac-1.webp"
+    },
+    {
+      "id": "3",
+      "name": "iPad",
+      "img": "/img/img-cateipad.webp"
+    },
+    {
+      "id": "4",
+      "name": "Watch",
+      "img": "/img/img-catewatch-1.webp"
+    },
+    {
+      "id": "5",
+      "name": "sound"
+    },
+    {
+      "id": "6",
+      "name": "test"
+    }
   ],
-
   "bannerCategory": [
-    { "id": "1", "name": "iPhone", "img": "/img/WiPhone-120x35.webp" },
-    { "id": "2", "name": "Mac", "img": "/img/WMac-120x50.webp" },
-    { "id": "3", "name": "iPad", "img": "/img/WiPad-120x51.webp" },
-    { "id": "4", "name": "Watch", "img": "/img/WiPad-120x51.webp" },
-    { "id": "5", "name": "Sound", "img": "/img/WAmThanh-120x33.webpp" }
+    {
+      "id": "1",
+      "name": "iPhone",
+      "img": "/img/WiPhone-120x35.webp"
+    },
+    {
+      "id": "2",
+      "name": "Mac",
+      "img": "/img/WMac-120x50.webp"
+    },
+    {
+      "id": "3",
+      "name": "iPad",
+      "img": "/img/WiPad-120x51.webp"
+    },
+    {
+      "id": "4",
+      "name": "Watch",
+      "img": "/img/WiPad-120x51.webp"
+    },
+    {
+      "id": "5",
+      "name": "Sound",
+      "img": "/img/WAmThanh-120x33.webpp"
+    }
   ],
-
   "typeElectronic": [
-    { "id": "1", "type": "0", "name": "Tất cả" },
-    { "id": "2", "type": "1", "name": "iPhone 14" },
-    { "id": "3", "type": "1", "name": "iPhone 13" },
-    { "id": "4", "type": "1", "name": "iPhone 12" },
-    { "id": "5", "type": "1", "name": "iPhone 11" },
-    { "id": "6", "type": "1", "name": "iPhone SE" },
-    { "id": "7", "type": "2", "name": "Macbook Pro" },
-    { "id": "8", "type": "2", "name": "iMac" },
-    { "id": "9", "type": "2", "name": "Mac mini" },
-    { "id": "10", "type": "3", "name": "iPad Pro M1" },
-    { "id": "11", "type": "3", "name": "iPad Air" },
-    { "id": "12", "type": "3", "name": "iPad mini" },
-    { "id": "13", "type": "4", "name": "Apple Watch Ultra" },
-    { "id": "14", "type": "4", "name": "Apple Watch SE" },
-    { "id": "15", "type": "4", "name": "Apple Watch Series 6" },
-    { "id": "16", "type": "5", "name": "AirPods" },
-    { "id": "17", "type": "5", "name": "Beats" }
+    {
+      "id": "1",
+      "type": "0",
+      "name": "Tất cả"
+    },
+    {
+      "id": "2",
+      "type": "1",
+      "name": "iPhone 14"
+    },
+    {
+      "id": "3",
+      "type": "1",
+      "name": "iPhone 13"
+    },
+    {
+      "id": "4",
+      "type": "1",
+      "name": "iPhone 12"
+    },
+    {
+      "id": "5",
+      "type": "1",
+      "name": "iPhone 11"
+    },
+    {
+      "id": "6",
+      "type": "1",
+      "name": "iPhone SE"
+    },
+    {
+      "id": "7",
+      "type": "2",
+      "name": "Macbook Pro"
+    },
+    {
+      "id": "8",
+      "type": "2",
+      "name": "iMac"
+    },
+    {
+      "id": "9",
+      "type": "2",
+      "name": "Mac mini"
+    },
+    {
+      "id": "10",
+      "type": "3",
+      "name": "iPad Pro M1"
+    },
+    {
+      "id": "11",
+      "type": "3",
+      "name": "iPad Air"
+    },
+    {
+      "id": "12",
+      "type": "3",
+      "name": "iPad mini"
+    },
+    {
+      "id": "13",
+      "type": "4",
+      "name": "Apple Watch Ultra"
+    },
+    {
+      "id": "14",
+      "type": "4",
+      "name": "Apple Watch SE"
+    },
+    {
+      "id": "15",
+      "type": "4",
+      "name": "Apple Watch Series 6"
+    },
+    {
+      "id": "16",
+      "type": "5",
+      "name": "AirPods"
+    },
+    {
+      "id": "17",
+      "type": "5",
+      "name": "Beats"
+    }
   ],
-
   "product": [
     {
       "id": "1",
-      "idLoai": "1",
       "img": "/img/iPhone-14-Pro-series- (1)-650x650 (1).webp",
-      "name": "iphone 14 Pro max 128GB",
-      "price": "1đ",
-      "color": {
-        "white": "white",
-        "blacke": "black",
-        "pink": "pink",
-        "green": "green",
-        "yellow": "yellow",
-        "red": "red",
-        "orange": "orange",
-        "gray": "gray",
-        "purple": "Purple",
-        "brown": "brown"
-      }
+      "name": "iphone 14 Pro max 128gb",
+      "price": "1đ"
     },
     {
       "id": "2",
@@ -1176,63 +1329,11 @@
     },
     {
       "id": "60",
-      "idLoai": "5",
       "img": "/img/img-sound/Beats/beatssoloproden.webp",
-      "name": "Beats Solo Pro Đen",
-      "price": "1đ",
-      "color": {
-        "white": "white",
-        "black": "black",
-        "pink": "pink",
-        "green": "green",
-        "yellow": "yellow",
-        "red": "red",
-        "orange": "orange",
-        "gray": "gray",
-        "purple": "purple",
-        "brown": "brown"
-      }
-    },
-    {
-      "id": "61",
-      "idLoai": "5",
-      "img": "/img/img-sound/Beats/high-performax.webp",
-      "name": "High Performax",
-      "price": "1đ",
-      "color": {
-        "white": "white",
-        "black": "black",
-        "pink": "pink",
-        "green": "green",
-        "yellow": "yellow",
-        "red": "red",
-        "orange": "orange",
-        "gray": "gray",
-        "purple": "purple",
-        "brown": "brown"
-      }
-    },
-    {
-      "id": "62",
-      "idLoai": "5",
-      "img": "/img/img-sound/Beats/khong-day-powerbeats-pro.webp",
-      "name": "Powerbeats Pro Không Dây",
-      "price": "1đ",
-      "color": {
-        "white": "white",
-        "black": "black",
-        "pink": "pink",
-        "green": "green",
-        "yellow": "yellow",
-        "red": "red",
-        "orange": "orange",
-        "gray": "gray",
-        "purple": "purple",
-        "brown": "brown"
-      }
+      "name": "Beats Solo Pro red",
+      "price": "1đ"
     }
   ],
-
   "properties": [
     {
       "id": "1",

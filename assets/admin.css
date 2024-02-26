@@ -5,6 +5,11 @@
   font-size: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 body {
   background-color: #3e3e3f;
 }
@@ -130,4 +135,103 @@ nav li a {
   background-color: black;
   line-height: 50px;
   text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content-btn {
+  padding: 10px 20px;
+}
+
+.table {
+  border: 1px solid;
+  border: none;
+  text-align: center;
+  color: #fff;
+}
+
+.img-table {
+  width: 100%;
+}
+
+.img-width {
+  width: 10%;
+}
+
+.namePro, .pricePro {
+  color: #fff;
+}
+
+.loai {
+  margin: 10px 0 0 10%;
+}
+
+.loai span {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.formthemloai  {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+.name-loai {
+  color: #fff;
+}
+
+.cat-table {
+  border: 1px solid;
+  padding: 10px 100px;
+  text-align: center;
+
+}
+
+
+.table-bill {
+  border: 1px solid;
+  text-align: center;
+  color: #fff;
+  width: 105%;
+}
+
+.table-bill th {
+  padding: 10px 30px;
+}
+
+.table-bill td {
+  padding: 20px;
+}
+
+
+.edit-pro {
+  color: #fff;
+  border: 1px solid;
+  width: 30%;
+  margin: 50px 25% 0 0;
+  float: right;
+}
+
+.edit-pro  p {
+  margin: 10px;
+  padding: 10px;
+}
+
+.edit-pro  input {
+  margin: 10px;
+  padding: 10px 30px;
+}
+
+.btn-sub {
+  padding: 10px 50px;
+}
+
+.bill-table {
+  margin: 10px 4.5% 0 0 ;
+  width: 78%;
+  float: right;
 }

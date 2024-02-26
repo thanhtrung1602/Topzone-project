@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/636172fc29c02f7b8ca6b577_After_topzone.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="../assets/admin.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="admin">
+      <header>
+
+      </header>
+      <nav class="navbar">
+      </nav>
+      <main class="main">
+        <div class="taskbar">
+          <div class="content">
+            <p><a href="./addsanpham.html"><button class="content-btn">add Product</button></a></p>
+            <h2> add Product</h2>
+            <p><a href="./addloai.html"><button class="content-btn">add Category</button></a></p>
+          </div>
+        </div>
+
+        <div class="on-loai"></div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+  <script src="../js/index.js"></script>
+  <script src="./js/admin.js"></script>
+  <script>
+    menu();
+    onCategory();
+  </script>
+  <script type="module">
+    import { addProducts } from "./js/moduleSp.js"
+      let form = `
+          <div class="edit-pro">
+            <form id="formthemloai">
+                <p class="name-loai"> id Loai <input type='text' id='id_loai'></p>
+                <p class="name-loai"> link img <input type='text' id='img'></p>
+                <p class="name-loai"> name <input type='text' id='name'></p>
+                <p class="name-loai"> price <input type='text' id='price'></p>
+                <p><a href="fullsanpham.html"><button id="btnthemloai" class="btn-sub" type='button'>Thêm loại</button></a></p>
+            </form>
+          </div>
+        `;
+        document.querySelector(".on-loai").innerHTML = form;
+  //gắn sự kiện click cho nút Thêm
+        document.querySelector("#btnthemloai").onclick = () => {
+            let data = { 
+                id: document.getElementById("id_loai").value,
+                img: document.getElementById("img").value,
+                name: document.getElementById("name").value,
+                price: document.getElementById("price").value,
+            };
+
+            
+            addProducts(data);
+        };
+  </script>
+</html>
